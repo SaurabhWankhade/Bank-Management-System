@@ -1,0 +1,31 @@
+@Saurabh Wankhade
+
+1] MySQL query for creating Bank Table.
+---
+	CREATE TABLE bank ( Pin_Number VARCHAR(10),Date VARCHAR(50),
+    	Type VARCHAR(40),Amount VARCHAR(20));
+
+2] MySQL query for creating user LoginDetails Table.
+--- 
+	CREATE TABLE logindetails ( Form_No VARCHAR(30),Card_Number VARCHAR(30),
+  	Pin_Number VARCHAR(30));
+
+3] MySQL query for creating user SignUP 1st Form Table.
+---
+	CREATE TABLE SignUP ( Form_No VARCHAR(30),FirstName VARCHAR(30),
+	MiddleName VARCHAR(30),LastName VARCHAR(35),DOB VARCHAR(30),
+	Gender VARCHAR(30),Email_ID VARCHAR(50),Marital_Status VARCHAR(30),
+	Address VARCHAR(60),City VARCHAR(30),State VARCHAR(35),Pin_Code VARCHAR(30),
+	Phone_No VARCHAR(10));
+
+4] MySQL query for creating user SignUP 2nd Form Table.
+---
+	CREATE TABLE SignUPTwo ( Form_No VARCHAR(30),Religion VARCHAR(30),
+	Category VARCHAR(40),Income VARCHAR(50),Education VARCHAR(60),
+	Occupation VARCHAR(60),PanNumber VARCHAR(30),AadharNumber VARCHAR(12),
+	SeniorCitizen VARCHAR(40),ExistingAccount VARCHAR(30));
+
+5] MySQL query for creating user SignUP 3rd Form Table.
+--- 
+	CREATE TABLE SignUPThree ( Form_No VARCHAR(30),Account_Type VARCHAR(40),
+	Card_Number VARCHAR(30),Pin_Number VARCHAR(30),Bank_Services VARCHAR(500));
